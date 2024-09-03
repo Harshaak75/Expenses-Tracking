@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  
+  padding: 0;
+  
+  box-sizing: border-box;
+  }
+
+.box{
+  background-color: #F9FAFB;
+  width: 100vw;
+}
+
+.main{
+  height: 32rem;
+  width: 19rem;
+  background-color: #FFFFFF;
+}
+
+.Loginmain{
+  height: 24rem;
+  width: 19rem;
+  background-color: #FFFFFF;
+}
+
+.btn:disabled{
+  opacity: 0.5;
+}
